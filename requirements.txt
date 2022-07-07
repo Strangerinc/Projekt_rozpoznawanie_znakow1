@@ -1,0 +1,10 @@
+# Instalacje niezbędne do działania:
+1. Python: 
+https://www.python.org/ 
+PyCharm:
+https://www.jetbrains.com/pycharm/ 
+2. Wgranie najnowszej wersji pip
+• pip install --upgrade pip  
+3. Zestaw niezbędnych bibliotek 
+
+pip install numpy scipy matplotlib ipython jupyter pandas sympy nose scikit-learn opencv-python tensorflow scikit-learn opencv-python tensorflow
