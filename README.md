@@ -13,7 +13,7 @@ Procedura ta przyspiesza proces uczenia z kilku godzin w środowisku lokalnym na
 # Projekt podzielony został na 3 pliki utworzone w Python 
 1. Znaki_drogowe_kod_trenujacy_model.py -> w tym pliku zaszyte są funkcje, które mają za zadanie wczytać nasz zbiór danych i na ich podstawie wytrenować model. 
 2. Rozpozanwanie_znakow.py -> w tym pliku wczytywany jest nasz wyuczony model oraz odpalana jest kamerka w oddzielnym okienku. Gdy pokażemy znak program rozpozna do jakiej klasy należy doda opis oraz poda prawdopodobieństwo z jakim rozpoznał znak.
-# W projekcie jest też plik znaki_plik_uczacy_26_06_22.ipynb plik ten jest przygotowany w taki sposób by można było go uruchamiać w Gogle Colab lub w jupyterlab poprzez wybór odpowiednich komórek. 
+3.  W projekcie jest też plik znaki_plik_uczacy_26_06_22.ipynb plik ten jest przygotowany w taki sposób by można było go uruchamiać w Gogle Colab lub w jupyterlab poprzez wybór odpowiednich komórek. 
 
 # Projekt wykonany w oparciu o:
 
