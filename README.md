@@ -45,27 +45,23 @@ pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose scik
 Zbiór niezbalansowany:
  
 
-GRAFICZNA REPREZENTACJA WYNIKÓW NAUKI NASZEGO MODELU
-
-
+Wynik Uczenia modelu:
 
 Test Score: 0.02027769200503826
 Test Accuracy: 0.9946839213371277
 
-A tak wygląda test rozpoznawania znaków. 
-
-
-
+Model bardzo ładnie rozpoznaje pokazane znaki drogowe.
 
 Zbiór po zbalansowaniu:
-   
+  
 
-GRAFICZNA REPREZENTACJA WYNIKÓW NAUKI NASZEGO MODELU
-      
+Wynik Uczenia modelu:
 
 Test Score: 0.044132836163043976
 Test Accuracy: 0.9909342527389526
 
+Model nie rozpoznał żadnego pokazanego znaku drogowego. 
+
 # Wnioski 
-Mimo zbalansowania danych wejściowych model przestał sobie radzić z rozpoznawaniem znaków. Nie rozpoznał żadnego ze znakó. 
+Mimo zbalansowania danych wejściowych model przestał sobie radzić z rozpoznawaniem znaków. Nie rozpoznał żadnego ze znaków. Prawdopodobnie było to spowodowane tym iż do zbalansowania danych użyto generatora który dodawał zaszumienie oraz obracał nasze zdjęcia.   
 
